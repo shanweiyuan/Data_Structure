@@ -66,8 +66,8 @@ public class IListImpl implements IList {
     /**
      * 插入
      *
-     * @param i
-     * @param x
+     * @param i 插入位置
+     * @param x 插入信息
      * @throws Exception
      */
     @Override
@@ -104,7 +104,6 @@ public class IListImpl implements IList {
 
     /**
      * 查找
-     *
      * @param x
      * @return
      */
