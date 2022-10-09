@@ -4,9 +4,6 @@ import swy.impl.IListImpl;
 
 import java.util.Scanner;
 
-/**
- *
- */
 public class main {
     public static void main(String[] args) throws Exception {
 
@@ -33,7 +30,5 @@ public class main {
             int result = (int) L.get(i - 2);
             System.out.println("第个"+i+"个元素的前驱的值是："+result);
         }
-
-
     }
 }

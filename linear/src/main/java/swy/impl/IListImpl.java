@@ -40,7 +40,6 @@ public class IListImpl implements IList {
 
     /**
      * 列表长度
-     *
      * @return curLen
      */
     @Override

@@ -4,7 +4,11 @@ import swy.impl.IListImpl;
 
 public class demo {
     public static void main(String[] args) throws Exception {
+
         IListImpl L = new IListImpl(10);
+
+
+
         L.insert(0,'a');
         L.insert(1,'z');
         L.insert(2,'d');
